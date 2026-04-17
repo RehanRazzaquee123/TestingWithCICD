@@ -1,31 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T23:09:49 IST" name="BDD Cucumber Suite" finished-at="2026-04-17T23:09:49 IST" duration-ms="642">
+  <suite started-at="2026-04-18T01:53:51 IST" name="Surefire suite" finished-at="2026-04-18T01:54:10 IST" duration-ms="18785">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@313ac989]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-04-17T23:09:49 IST" name="Cucumber Tests" finished-at="2026-04-17T23:09:49 IST" duration-ms="642">
+    <test started-at="2026-04-18T01:53:51 IST" name="Surefire test" finished-at="2026-04-18T01:54:10 IST" duration-ms="18785">
       <class name="com.bddcucumberframework.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@313ac989]" started-at="2026-04-17T23:09:49 IST" name="setUpClass" finished-at="2026-04-17T23:09:49 IST" duration-ms="580" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:53:52 IST" name="setUpClass" finished-at="2026-04-18T01:53:53 IST" duration-ms="1615" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5bda8e08]]>
+                <![CDATA[org.testng.TestRunner@5b080f3a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bddcucumberframework.runner.TestRunner@313ac989]" started-at="2026-04-17T23:09:49 IST" name="tearDownClass" finished-at="2026-04-17T23:09:49 IST" duration-ms="35" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-18T01:53:55 IST" duration-ms="1555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify a welcome message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Application greeting"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-18T01:54:10 IST" duration-ms="16857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch Ministry of Testing and verify title and text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-18T01:54:00 IST" duration-ms="6593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify an API endpoint returns expected data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-18T01:54:10 IST" duration-ms="17035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch Myntra and verify title and text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bddcucumberframework.runner.TestRunner@3f197a46]" started-at="2026-04-18T01:54:10 IST" name="tearDownClass" finished-at="2026-04-18T01:54:10 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.bddcucumberframework.runner.TestRunner -->
-    </test> <!-- Cucumber Tests -->
-  </suite> <!-- BDD Cucumber Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

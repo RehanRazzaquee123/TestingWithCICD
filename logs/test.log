@@ -970,3 +970,77 @@
 2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
 2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
 2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:30 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:30 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:30 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:30 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:30 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:30 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:34 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:34 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:34 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:34 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:34 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:34 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:35 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:35 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:35 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:52 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:52 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:52 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 23:17:52 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:52 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:52 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 23:17:55 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:55 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:55 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:17:55 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:55 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:55 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 23:17:56 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:56 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:17:57 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:18:11 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 23:18:11 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 23:18:14 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 23:18:14 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 23:18:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:18:14 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:18:14 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 23:18:15 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 23:18:15 INFO  LoggerHelper - Opening URL: https://club.ministryoftesting.com/
+2026-04-17 23:18:19 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 23:18:19 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 23:18:19 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 23:18:19 INFO  LoggerHelper - Closing browser window
+2026-04-17 23:18:20 INFO  LoggerHelper - Page title after navigation: The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club
+2026-04-17 23:18:20 INFO  LoggerHelper - Verifying page title contains 'Ministry of Testing', actual title='The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club'
+2026-04-17 23:18:20 INFO  LoggerHelper - Verifying page contains text 'Welcome'.
+2026-04-17 23:18:20 INFO  LoggerHelper - Closing browser window
+2026-04-17 23:18:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:18:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:18:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 23:18:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-18 01:53:55 INFO  LoggerHelper - Launching MinistryofTesting homepage
+2026-04-18 01:53:55 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-18 01:53:56 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-18 01:53:56 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-18 01:54:00 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-18 01:54:00 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-18 01:54:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-18 01:54:04 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-18 01:54:04 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-18 01:54:04 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-18 01:54:04 INFO  LoggerHelper - Opening URL: https://club.ministryoftesting.com/
+2026-04-18 01:54:07 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-18 01:54:09 INFO  LoggerHelper - Page title after navigation: The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club
+2026-04-18 01:54:09 INFO  LoggerHelper - Verifying page title contains 'Ministry of Testing', actual title='The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club'
+2026-04-18 01:54:09 INFO  LoggerHelper - Verifying page contains text 'Welcome'.
+2026-04-18 01:54:09 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-18 01:54:09 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-18 01:54:09 INFO  LoggerHelper - Closing browser window
+2026-04-18 01:54:10 INFO  LoggerHelper - Closing browser window
+2026-04-18 01:54:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-18 01:54:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-18 01:54:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-18 01:54:10 INFO  LoggerHelper - Browser session cleared.

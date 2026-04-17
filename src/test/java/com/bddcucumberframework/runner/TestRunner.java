@@ -7,7 +7,9 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com.bddcucumberframework.stepdefinitions",
-        plugin = {"pretty", "html:target/cucumber-report.html"},
+        plugin = {"pretty", "html:target/cucumber-report.html",
+                   "json:target/cucumber.json"
+        },
         monochrome = true,
         tags = "${cucumber.filter.tags}"
 )
