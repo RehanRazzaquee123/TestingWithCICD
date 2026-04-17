@@ -1,0 +1,6 @@
+com\bddcucumberframework\utils\BrowserManager.class
+com\bddcucumberframework\stepdefinitions\Hooks.class
+com\bddcucumberframework\stepdefinitions\ApiStepDefinitions.class
+com\bddcucumberframework\runner\TestRunner.class
+com\bddcucumberframework\utils\ApiClient.class
+com\bddcucumberframework\stepdefinitions\StepDefinitions.class

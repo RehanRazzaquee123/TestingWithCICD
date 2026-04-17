@@ -1,0 +1,972 @@
+2026-04-06 23:39:16 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:39:16 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:39:40 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:39:40 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:41:34 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:41:34 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:41:34 INFO  StepDefinitions - Verifying welcome message.
+2026-04-06 23:42:13 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:42:13 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:42:13 INFO  StepDefinitions - Verifying welcome message.
+2026-04-06 23:45:31 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:45:31 INFO  ApiStepDefinitions - Sending GET request to /posts/1
+2026-04-06 23:45:32 INFO  ApiStepDefinitions - Verifying status code: expected=200 actual=200
+2026-04-06 23:45:32 INFO  ApiStepDefinitions - Verifying response body contains text.
+2026-04-06 23:45:32 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:45:32 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:45:32 INFO  StepDefinitions - Verifying welcome message.
+2026-04-06 23:54:42 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:54:42 INFO  ApiStepDefinitions - Sending GET request to /posts/1
+2026-04-06 23:54:44 INFO  ApiStepDefinitions - Verifying status code: expected=200 actual=200
+2026-04-06 23:54:44 INFO  ApiStepDefinitions - Verifying response body contains text.
+2026-04-06 23:54:44 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:54:44 INFO  ApiStepDefinitions - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-06 23:54:44 INFO  ApiClient - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-06 23:54:44 INFO  ApiClient - Replaced token $@# with random value: f96bzLPKTD
+2026-04-06 23:54:44 INFO  ApiClient - Updated file with new random token value: src/test/resources/payloads/sample-request.json
+2026-04-06 23:54:45 INFO  ApiStepDefinitions - Verifying status code: expected=201 actual=201
+2026-04-06 23:54:45 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:54:45 INFO  ApiStepDefinitions - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-06 23:54:45 INFO  ApiClient - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-06 23:54:45 INFO  ApiClient - Replaced token $@# with random value: 5eo3QmmkHg
+2026-04-06 23:54:45 INFO  ApiClient - Updated file with new random token value: src/test/resources/payloads/sample-request.xml
+2026-04-06 23:54:45 INFO  ApiStepDefinitions - Verifying status code: expected=201 actual=201
+2026-04-06 23:54:45 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:54:45 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:54:45 INFO  StepDefinitions - Verifying welcome message.
+2026-04-06 23:55:19 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:55:19 INFO  ApiStepDefinitions - Sending GET request to /posts/1
+2026-04-06 23:55:21 INFO  ApiStepDefinitions - Verifying status code: expected=200 actual=200
+2026-04-06 23:55:21 INFO  ApiStepDefinitions - Verifying response body contains text.
+2026-04-06 23:55:21 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:55:21 INFO  ApiStepDefinitions - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-06 23:55:21 INFO  ApiClient - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-06 23:55:22 INFO  ApiStepDefinitions - Verifying status code: expected=201 actual=201
+2026-04-06 23:55:22 INFO  ApiStepDefinitions - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-06 23:55:22 INFO  ApiStepDefinitions - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-06 23:55:22 INFO  ApiClient - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-06 23:55:22 INFO  ApiStepDefinitions - Verifying status code: expected=201 actual=201
+2026-04-06 23:55:22 INFO  StepDefinitions - Checking application availability.
+2026-04-06 23:55:22 INFO  StepDefinitions - Requesting welcome message.
+2026-04-06 23:55:22 INFO  StepDefinitions - Verifying welcome message.
+2026-04-07 00:03:14 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:03:14 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:03:15 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:03:15 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:03:15 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:03:15 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:03:15 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:03:16 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:03:16 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:03:16 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:03:16 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:03:16 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:03:16 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:03:16 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:03:16 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:07:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:07:40 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:07:41 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:07:41 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:07:41 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:07:41 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:07:41 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:07:42 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:07:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:07:42 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:07:42 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:07:42 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:07:42 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:07:42 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:07:42 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:08:22 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:08:22 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:08:23 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:08:23 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:08:23 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:08:23 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:08:23 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:08:24 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:08:24 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:08:24 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:08:24 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:08:25 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:08:25 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:08:25 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:08:25 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:10:21 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:10:22 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:10:23 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:10:23 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:10:23 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:10:23 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:10:23 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:10:24 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:10:24 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:10:24 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:10:24 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:10:24 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:10:24 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:10:24 INFO  LoggerHelper - Downloading PDF from /documents/sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:10:25 ERROR LoggerHelper - Failed to download PDF. Status code: 404
+2026-04-07 00:10:25 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:10:25 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:10:25 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:14:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:14:40 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:14:42 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:14:42 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:14:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:14:42 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:14:42 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:14:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:14:43 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:14:43 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:14:43 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:14:44 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:14:44 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:14:44 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:14:44 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:14:44 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:14:44 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:14:44 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:14:44 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:14:44 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:15:16 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:15:16 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:15:18 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:15:18 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:15:18 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:15:18 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:15:18 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:15:18 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:15:18 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:15:18 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:15:18 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:15:19 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:15:19 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:15:19 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:15:19 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:15:19 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:15:19 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:15:19 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:15:19 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:15:19 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:18:48 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:18:49 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:18:50 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:18:50 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:18:50 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:18:50 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:18:50 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:18:50 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:18:50 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:18:50 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:18:50 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:18:51 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:18:51 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:18:51 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:18:51 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:18:51 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:18:51 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:18:51 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:18:51 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:18:51 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:19:19 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:19:19 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:19:21 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:19:21 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:19:21 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:19:21 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:19:21 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:19:21 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:19:21 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:19:21 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:19:21 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:19:22 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:19:22 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:19:22 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:19:22 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:19:22 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:19:22 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:19:22 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:19:22 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:19:22 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:21:09 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:09 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:21:10 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:21:10 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:21:10 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:10 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:21:10 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:21:11 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:21:11 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:11 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:21:11 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:21:12 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:21:12 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:21:12 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:21:12 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:21:12 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:21:12 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:21:12 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:21:12 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:21:12 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:21:41 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:41 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:21:42 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:21:42 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:21:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:42 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:21:42 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:21:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:21:43 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:21:43 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:21:43 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:21:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:21:43 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:21:43 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:21:43 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:21:43 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:21:44 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:21:44 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:21:44 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:21:44 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:22:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:22:42 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:22:44 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:22:44 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:22:44 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:22:44 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:22:44 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:22:44 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:22:44 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:22:44 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:22:44 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:22:45 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:22:45 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:22:45 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:22:45 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:22:45 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:22:45 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:22:45 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:22:45 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:22:45 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:23:59 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:00 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:24:01 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:24:01 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:24:01 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:01 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:01 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:24:01 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:24:02 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:24:02 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:02 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:02 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:24:02 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:24:02 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:24:02 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:02 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:24:02 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:24:02 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:24:02 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:24:02 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:24:02 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:02 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:24:02 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:24:02 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:24:02 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:02 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:24:03 INFO  LoggerHelper - Fetched page from URL: https://www.myntra.com
+2026-04-07 00:24:03 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:24:03 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:24:03 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:24:03 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:03 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:45 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:46 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:24:47 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:24:47 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:24:47 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:47 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:47 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:24:47 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:24:48 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:24:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:48 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:24:48 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:24:48 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:24:48 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:24:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:48 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:24:48 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:24:48 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:24:48 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:24:48 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:24:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:48 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:24:48 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:24:48 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:24:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:48 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:24:50 INFO  LoggerHelper - Fetched page from URL: https://www.myntra.com
+2026-04-07 00:24:50 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:24:50 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:24:50 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:24:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:24:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:35 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:32:35 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:32:37 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:32:37 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:32:37 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:37 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:32:37 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:32:37 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:32:37 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:32:37 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:37 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:32:37 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:32:37 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:32:38 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:32:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:38 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:32:38 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:32:38 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:32:38 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:32:38 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:32:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:38 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:32:38 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:32:38 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:32:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:32:38 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:32:38 WARN  LoggerHelper - Failed to setup ChromeDriver with version 146.0.742.39, trying fallback: No value present
+2026-04-07 00:32:38 ERROR LoggerHelper - ChromeDriver setup failed completely: No value present
+2026-04-07 00:32:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:25 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:25 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:33:26 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:33:26 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:33:26 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:26 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:26 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:33:26 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:33:27 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:33:27 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:27 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:27 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:33:27 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:33:28 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:33:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:28 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:33:28 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:33:28 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:33:28 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:33:28 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:33:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:28 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:33:28 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:33:28 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:33:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:28 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:33:28 WARN  LoggerHelper - Failed to setup ChromeDriver version 146.0.742.39: No value present
+2026-04-07 00:33:28 WARN  LoggerHelper - Failed to setup ChromeDriver version 145.0.5999.71: No value present
+2026-04-07 00:33:28 WARN  LoggerHelper - Failed to setup ChromeDriver version 147.0.5999.0: No value present
+2026-04-07 00:33:28 ERROR LoggerHelper - ChromeDriver setup failed completely: All ChromeDriver version attempts failed
+2026-04-07 00:33:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:57 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:57 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:33:58 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:33:58 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:33:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:58 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:58 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:33:58 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:33:59 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:33:59 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:33:59 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:33:59 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:33:59 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:34:00 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:34:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:34:00 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:34:00 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:34:00 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:34:00 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:34:00 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:34:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:34:00 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:34:00 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:34:00 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:34:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:34:00 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:34:00 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:34:10 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:34:10 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:34:13 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:34:13 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:34:13 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:34:13 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:34:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:34:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:39 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:35:40 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:35:41 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:35:41 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:35:41 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:41 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:35:41 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:35:41 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:35:42 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:35:42 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:35:42 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:35:42 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:35:42 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:35:42 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:42 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:35:42 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:35:42 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:35:42 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:35:43 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:35:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:43 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:35:43 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:35:43 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:35:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:43 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:35:43 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:35:45 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:35:45 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:35:48 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:35:48 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:35:49 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:35:49 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:35:49 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:35:49 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:10 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:44:11 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:44:12 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:44:12 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:44:12 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:12 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:44:12 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:44:12 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:44:13 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:44:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:13 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:44:13 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:44:13 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:44:14 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:44:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:14 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:44:14 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:44:14 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:44:14 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:44:14 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:44:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:14 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:44:14 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:44:14 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:44:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:14 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:44:14 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:44:16 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:44:16 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:44:20 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:44:20 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:44:20 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:44:20 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:44:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:44:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:50:41 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:50:42 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:50:42 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:50:42 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:42 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:50:42 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:50:42 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:50:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:50:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:43 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:50:43 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:50:43 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:50:44 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:50:44 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:44 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:50:44 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:50:44 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:50:44 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:50:44 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:50:44 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:44 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:50:44 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:50:44 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:50:44 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:44 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:50:44 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:50:46 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:50:46 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:50:50 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:50:50 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:50:50 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:50:50 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:50:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:50:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:15 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:53:15 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:53:17 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:53:17 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:53:17 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:17 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:53:17 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:53:17 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:53:17 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:53:17 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:17 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:53:17 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:53:17 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:53:18 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:53:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:18 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:53:18 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:53:18 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:53:18 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:53:18 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:53:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:18 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:53:18 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:53:18 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:53:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:18 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:53:18 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:53:21 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:53:21 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:53:24 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:53:24 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:53:24 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:53:24 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:53:24 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:53:24 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:23 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:57:24 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-07 00:57:25 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-07 00:57:25 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-07 00:57:25 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:25 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:57:25 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:57:25 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-07 00:57:26 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:57:26 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:26 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-07 00:57:26 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:57:26 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-07 00:57:26 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-07 00:57:26 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:26 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-07 00:57:26 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:57:26 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-07 00:57:26 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-07 00:57:27 INFO  LoggerHelper - PDFs are identical
+2026-04-07 00:57:27 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:27 INFO  LoggerHelper - Checking application availability.
+2026-04-07 00:57:27 INFO  LoggerHelper - Requesting welcome message.
+2026-04-07 00:57:27 INFO  LoggerHelper - Verifying welcome message.
+2026-04-07 00:57:27 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:27 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-07 00:57:27 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-07 00:57:29 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-07 00:57:29 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-07 00:57:32 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-07 00:57:32 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-07 00:57:32 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-07 00:57:32 INFO  LoggerHelper - Closing browser window
+2026-04-07 00:57:33 INFO  LoggerHelper - Browser session cleared.
+2026-04-07 00:57:33 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:11 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-08 00:21:11 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-08 00:21:11 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 00:21:11 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-08 00:21:11 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 00:21:11 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 00:21:11 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 00:21:11 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 00:21:11 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 00:21:11 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-08 00:21:12 INFO  LoggerHelper - PDFs are identical
+2026-04-08 00:21:12 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:13 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-08 00:21:13 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-08 00:21:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:13 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:21:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:13 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:21:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:15 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-08 00:21:15 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-08 00:21:18 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-08 00:21:18 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-08 00:21:19 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-08 00:21:19 INFO  LoggerHelper - Closing browser window
+2026-04-08 00:21:19 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:21:19 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:52 INFO  LoggerHelper - Checking application availability.
+2026-04-08 00:26:52 INFO  LoggerHelper - Requesting welcome message.
+2026-04-08 00:26:52 INFO  LoggerHelper - Verifying welcome message.
+2026-04-08 00:26:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:52 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 00:26:52 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 00:26:52 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 00:26:52 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-08 00:26:52 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 00:26:52 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 00:26:52 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 00:26:52 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-08 00:26:52 INFO  LoggerHelper - PDFs are identical
+2026-04-08 00:26:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:54 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-08 00:26:54 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-08 00:26:58 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-08 00:26:58 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-08 00:26:58 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-08 00:26:58 INFO  LoggerHelper - Closing browser window
+2026-04-08 00:26:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:26:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:26 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-08 00:29:26 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-08 00:29:26 INFO  LoggerHelper - PDFs are identical
+2026-04-08 00:29:26 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:28 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-08 00:29:28 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-08 00:29:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:28 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:29:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:28 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:29:28 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:29 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-08 00:29:29 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-08 00:29:32 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-08 00:29:32 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-08 00:29:32 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-08 00:29:33 INFO  LoggerHelper - Closing browser window
+2026-04-08 00:29:33 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:29:33 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:03 INFO  LoggerHelper - Checking application availability.
+2026-04-08 00:39:03 INFO  LoggerHelper - Requesting welcome message.
+2026-04-08 00:39:03 INFO  LoggerHelper - Verifying welcome message.
+2026-04-08 00:39:03 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:04 INFO  LoggerHelper - PDFs are identical
+2026-04-08 00:39:04 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:05 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-08 00:39:05 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-08 00:39:05 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:05 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:39:05 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:05 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 00:39:05 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:06 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-08 00:39:06 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-08 00:39:09 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-08 00:39:10 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-08 00:39:10 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-08 00:39:10 INFO  LoggerHelper - Closing browser window
+2026-04-08 00:39:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 00:39:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-08 01:15:40 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-08 01:15:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-08 01:15:40 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-08 01:15:40 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-08 01:15:40 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 01:15:40 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-08 01:15:40 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 01:15:40 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 01:15:40 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-08 01:15:40 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-08 01:15:40 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-08 01:15:41 INFO  LoggerHelper - PDFs are identical
+2026-04-08 01:15:41 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:43 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-08 01:15:43 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-08 01:15:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 01:15:43 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-08 01:15:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:43 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:44 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-08 01:15:44 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-08 01:15:47 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-08 01:15:47 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-08 01:15:47 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-08 01:15:48 INFO  LoggerHelper - Closing browser window
+2026-04-08 01:15:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-08 01:15:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:35 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 20:56:35 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 20:56:35 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 20:56:35 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 20:56:35 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 20:56:35 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 20:56:37 INFO  LoggerHelper - PDFs are identical
+2026-04-17 20:56:37 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:38 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 20:56:38 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 20:56:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:38 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 20:56:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:38 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 20:56:38 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:48 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 20:56:48 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 20:56:48 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 20:56:48 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 20:56:48 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 20:56:48 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 20:56:48 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 20:56:48 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 20:56:49 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:49 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:49 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:50 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 20:56:50 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 20:56:50 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 20:56:50 INFO  LoggerHelper - Closing browser window
+2026-04-17 20:56:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 20:56:50 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:14:53 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-17 21:14:53 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:14:53 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:14:53 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:14:53 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-17 21:14:53 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-17 21:14:53 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-17 21:14:53 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-17 21:14:53 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-17 21:14:53 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-17 21:14:53 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:14:53 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-17 21:14:54 INFO  LoggerHelper - PDFs are identical
+2026-04-17 21:14:54 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:14:56 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:14:56 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:14:56 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:14:56 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:14:56 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:14:56 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:14:56 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:14:58 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:14:58 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:14:58 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:14:58 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:14:58 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:14:58 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:14:58 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:14:58 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:15:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:15:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:15:00 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:15:02 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:15:03 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:15:03 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:15:03 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:15:03 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:15:03 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:09 INFO  LoggerHelper - Checking application availability.
+2026-04-17 21:23:09 INFO  LoggerHelper - Requesting welcome message.
+2026-04-17 21:23:09 INFO  LoggerHelper - Verifying welcome message.
+2026-04-17 21:23:09 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:10 INFO  LoggerHelper - PDFs are identical
+2026-04-17 21:23:10 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:12 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:23:12 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:23:12 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:12 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:23:12 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:12 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:23:12 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:13 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:23:13 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:23:13 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:23:13 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:23:13 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:23:13 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:23:13 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:23:13 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:23:15 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:15 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:15 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:18 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:23:18 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:23:18 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:23:18 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:23:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:23:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:18 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:43:18 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:43:18 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:43:18 INFO  LoggerHelper - Setting API base URI: file://
+2026-04-17 21:43:18 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:43:18 INFO  LoggerHelper - Sending POST request with JSON payload from file: src/test/resources/payloads/sample-request.json
+2026-04-17 21:43:18 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.json
+2026-04-17 21:43:18 INFO  LoggerHelper - Downloading PDF from src/test/resources/documents/source-sample.pdf to target/downloaded-sample.pdf
+2026-04-17 21:43:18 INFO  LoggerHelper - Sending POST request with XML payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-17 21:43:18 INFO  LoggerHelper - Loaded payload from file: src/test/resources/payloads/sample-request.xml
+2026-04-17 21:43:18 INFO  LoggerHelper - PDF copied successfully from src\test\resources\documents\source-sample.pdf to target/downloaded-sample.pdf
+2026-04-17 21:43:18 INFO  LoggerHelper - Comparing PDFs: src/test/resources/documents/expected-sample.pdf vs target/downloaded-sample.pdf
+2026-04-17 21:43:18 INFO  LoggerHelper - PDFs are identical
+2026-04-17 21:43:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:20 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:43:20 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:43:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:20 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:43:20 INFO  LoggerHelper - Verifying status code: expected=201 actual=201
+2026-04-17 21:43:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:20 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:21 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:43:21 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:43:21 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:43:21 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:43:21 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:43:21 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:43:21 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:43:21 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:43:22 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:22 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:22 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:26 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:43:26 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:43:26 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:43:26 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:43:27 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:43:27 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:48:54 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:48:54 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:48:54 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:48:54 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:48:54 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:48:54 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:48:57 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:48:57 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:48:57 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:48:57 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:48:57 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:48:57 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:48:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:48:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:48:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:50:57 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:50:57 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:50:58 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:50:58 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:50:58 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:52:13 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:52:13 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:52:15 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:52:15 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:52:15 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:52:16 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:52:16 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:52:18 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:52:18 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:52:18 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:52:18 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:52:19 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:52:19 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:05 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:53:05 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:53:07 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:53:07 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:53:07 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:08 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:53:08 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:53:13 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:53:13 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:53:13 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:53:13 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:53:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:14 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:35 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 21:53:35 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 21:53:37 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 21:53:37 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 21:53:37 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:38 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:53:38 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 21:53:40 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 21:53:40 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 21:53:40 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 21:53:40 INFO  LoggerHelper - Closing browser window
+2026-04-17 21:53:41 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:53:41 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:59:07 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:59:07 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:59:07 INFO  LoggerHelper - Launching Myntra homepage
+2026-04-17 21:59:07 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:59:07 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:59:07 INFO  LoggerHelper - Initializing ChromeDriver with Selenium Manager...
+2026-04-17 21:59:11 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:59:11 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:59:11 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:59:11 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:59:11 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 21:59:11 INFO  LoggerHelper - Opening URL: https://rt-otc-trading.com
+2026-04-17 21:59:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:59:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 21:59:13 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:00:16 INFO  LoggerHelper - Checking application availability.
+2026-04-17 22:00:16 INFO  LoggerHelper - Requesting welcome message.
+2026-04-17 22:00:16 INFO  LoggerHelper - Verifying welcome message.
+2026-04-17 22:00:16 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:00:18 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 22:00:18 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 22:00:18 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:00:18 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 22:00:18 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 22:00:23 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 22:00:23 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 22:00:23 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 22:00:24 INFO  LoggerHelper - Closing browser window
+2026-04-17 22:00:24 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:00:24 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:08:47 INFO  LoggerHelper - Setting API base URI: https://jsonplaceholder.typicode.com
+2026-04-17 22:08:47 INFO  LoggerHelper - Sending GET request to /posts/1
+2026-04-17 22:08:48 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 22:08:48 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 22:08:48 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:08:49 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 22:08:49 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 22:08:51 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 22:08:51 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 22:08:51 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 22:08:52 INFO  LoggerHelper - Closing browser window
+2026-04-17 22:08:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:08:52 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:45 INFO  LoggerHelper - Checking application availability.
+2026-04-17 22:20:45 INFO  LoggerHelper - Requesting welcome message.
+2026-04-17 22:20:45 INFO  LoggerHelper - Verifying welcome message.
+2026-04-17 22:20:45 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:46 INFO  LoggerHelper - Verifying status code: expected=200 actual=200
+2026-04-17 22:20:46 INFO  LoggerHelper - Verifying response body contains text.
+2026-04-17 22:20:47 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:47 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 22:20:47 INFO  LoggerHelper - ChromeDriver initialized successfully
+2026-04-17 22:20:47 INFO  LoggerHelper - Opening URL: https://www.myntra.com
+2026-04-17 22:20:47 INFO  LoggerHelper - Opening URL: https://club.ministryoftesting.com/
+2026-04-17 22:20:52 INFO  LoggerHelper - Page title after navigation: The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club
+2026-04-17 22:20:52 INFO  LoggerHelper - Verifying page title contains 'Ministry of Testing', actual title='The Club: Software Testing & Quality Engineering Community Forum | Ministry of Testing - The Club'
+2026-04-17 22:20:52 INFO  LoggerHelper - Verifying page contains text 'Welcome'.
+2026-04-17 22:20:52 INFO  LoggerHelper - Page title after navigation: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2026-04-17 22:20:52 INFO  LoggerHelper - Verifying page title contains 'Myntra', actual title='Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra'
+2026-04-17 22:20:52 INFO  LoggerHelper - Verifying page contains text 'Online shopping'.
+2026-04-17 22:20:52 INFO  LoggerHelper - Closing browser window
+2026-04-17 22:20:52 INFO  LoggerHelper - Closing browser window
+2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
+2026-04-17 22:20:53 INFO  LoggerHelper - Browser session cleared.
